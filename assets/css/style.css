@@ -1,0 +1,465 @@
+:root{
+    --black:#060606;
+    --black2:#101010;
+    --black3:#181818;
+    --gold:#D4AF37;
+    --gold-light:#F5DC78;
+    --white:#FFFFFF;
+    --gray:#A9A9A9;
+    --green:#43B86B;
+    --red:#A63D3D;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:var(--black);
+    color:var(--white);
+    min-height:100vh;
+}
+
+button,
+input{
+    font-family:inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+.hidden{
+    display:none !important;
+}
+
+#loginPage{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    background:radial-gradient(circle at top, #44350d 0%, #171204 22%, #060606 65%);
+}
+
+.login-card{
+    width:100%;
+    max-width:440px;
+    background:rgba(15,15,15,.98);
+    border:1px solid rgba(212,175,55,.55);
+    border-radius:28px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 0 50px rgba(212,175,55,.14);
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    margin:0 auto 20px;
+    border:2px solid var(--gold);
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:var(--gold);
+    font-size:40px;
+}
+
+.login-card h1{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.login-card h2{
+    font-family:Georgia,serif;
+    font-weight:normal;
+    font-size:18px;
+    margin-bottom:12px;
+}
+
+.login-card p{
+    color:var(--gray);
+    line-height:1.5;
+    margin-bottom:25px;
+}
+
+.input{
+    width:100%;
+    padding:15px;
+    margin-bottom:12px;
+    border-radius:12px;
+    border:1px solid #333;
+    background:#090909;
+    color:white;
+    outline:none;
+}
+
+.input:focus{
+    border-color:var(--gold);
+}
+
+.gold-button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(135deg, var(--gold), var(--gold-light));
+    color:#050505;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.owner-link{
+    margin-top:18px;
+    background:none;
+    border:none;
+    color:var(--gold-light);
+    text-decoration:underline;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:rgba(6,6,6,.97);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(212,175,55,.25);
+    padding:15px;
+}
+
+.header-inner{
+    max-width:1100px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.brand{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    font-size:21px;
+}
+
+.logout{
+    background:transparent;
+    color:var(--gold);
+    border:1px solid rgba(212,175,55,.55);
+    padding:9px 13px;
+    border-radius:9px;
+}
+
+main{
+    max-width:1100px;
+    margin:auto;
+    padding:25px 15px 80px;
+}
+
+.welcome{margin-bottom:25px;}
+
+.welcome h2{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    margin-bottom:6px;
+}
+
+.welcome p{color:var(--gray);}
+
+.tabs{
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    margin-bottom:25px;
+    padding-bottom:5px;
+}
+
+.tab{
+    white-space:nowrap;
+    padding:11px 16px;
+    border-radius:20px;
+    background:#151515;
+    color:#aaa;
+    border:1px solid #292929;
+}
+
+.tab.active{
+    background:var(--gold);
+    color:#050505;
+    border-color:var(--gold);
+}
+
+.category{margin-bottom:38px;}
+
+.category-title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:var(--gold);
+    font-family:Georgia,serif;
+    font-size:23px;
+    border-bottom:1px solid #292929;
+    padding-bottom:10px;
+    margin-bottom:15px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:16px;
+}
+
+.product{
+    background:var(--black2);
+    border:1px solid #292929;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.2s;
+}
+
+.product:hover{
+    border-color:var(--gold);
+    transform:translateY(-2px);
+}
+
+.product-image{
+    width:100%;
+    height:195px;
+    object-fit:cover;
+    display:block;
+}
+
+.product-body{padding:15px;}
+
+.product-name{
+    font-size:17px;
+    font-weight:bold;
+    margin-bottom:7px;
+}
+
+.product-description{
+    color:#999;
+    font-size:13px;
+    line-height:1.4;
+    margin-bottom:10px;
+}
+
+.product-link{
+    display:block;
+    color:var(--gold-light);
+    text-decoration:none;
+    font-size:13px;
+    margin-bottom:14px;
+}
+
+.product-actions{display:grid; gap:8px;}
+
+.buy-button{
+    padding:12px;
+    border:none;
+    border-radius:9px;
+    background:var(--gold);
+    color:#050505;
+    font-weight:bold;
+}
+
+.money-button{
+    padding:12px;
+    border-radius:9px;
+    background:transparent;
+    color:var(--gold-light);
+    border:1px solid var(--gold);
+    font-weight:bold;
+}
+
+.have-card{
+    background:var(--black2);
+    border:1px solid #292929;
+    border-radius:18px;
+    padding:20px;
+}
+
+.have-title{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    font-size:21px;
+    margin-bottom:15px;
+}
+
+.have-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    padding:13px 0;
+    border-bottom:1px solid #292929;
+}
+
+.have-item:last-child{border-bottom:none;}
+
+.have-check{color:var(--green); font-weight:bold; font-size:13px;}
+
+.pix-card{
+    background:linear-gradient(145deg, #15120a, #0e0e0e);
+    border:1px solid rgba(212,175,55,.55);
+    border-radius:18px;
+    padding:20px;
+    margin-top:20px;
+}
+
+.pix-card h3{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    margin-bottom:15px;
+}
+
+.pix-label{
+    color:#888;
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+.pix-value{
+    background:#080808;
+    border:1px solid #292929;
+    padding:12px;
+    border-radius:9px;
+    margin-bottom:12px;
+    word-break:break-word;
+    color:white;
+}
+
+.copy-button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:9px;
+    background:var(--gold);
+    color:#050505;
+    font-weight:bold;
+}
+
+.contact{color:var(--gold-light); text-decoration:none;}
+
+.modal{
+    position:fixed;
+    inset:0;
+    z-index:500;
+    background:rgba(0,0,0,.84);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.modal-card{
+    width:100%;
+    max-width:440px;
+    background:#111;
+    border:1px solid var(--gold);
+    border-radius:20px;
+    padding:25px;
+}
+
+.modal-card h2{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    margin-bottom:15px;
+}
+
+.modal-card p{
+    color:#aaa;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+
+.cancel-button{
+    width:100%;
+    margin-top:10px;
+    padding:12px;
+    border:none;
+    border-radius:10px;
+    background:#242424;
+    color:white;
+}
+
+.admin-card{
+    background:var(--black2);
+    border:1px solid #292929;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.admin-card h3{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    margin-bottom:15px;
+}
+
+.admin-info{
+    color:#999;
+    line-height:1.5;
+    margin-bottom:15px;
+}
+
+.admin-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    padding:13px 0;
+    border-bottom:1px solid #292929;
+}
+
+.admin-item:last-child{border-bottom:none;}
+
+.admin-item small{
+    display:block;
+    color:#777;
+    margin-top:4px;
+}
+
+.notification-item{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    padding:12px 0;
+    border-bottom:1px solid #292929;
+}
+
+.notification-item:last-child{border-bottom:none;}
+
+.notification-item strong{color:var(--gold-light);}
+
+.notification-item small{color:#777;}
+
+.received{
+    background:var(--green);
+    color:white;
+    border:none;
+    padding:9px 12px;
+    border-radius:8px;
+    font-size:12px;
+}
+
+.not-received{
+    background:var(--red);
+    color:white;
+    border:none;
+    padding:9px 12px;
+    border-radius:8px;
+    font-size:12px;
+}
+
+@media(max-width:600px){
+    .login-card{padding:30px 20px;}
+    .login-card h1{font-size:27px;}
+    .products{grid-template-columns:1fr;}
+    .product-image{height:215px;}
+}
