@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lista da Nova Casa</title>
+
+<style>
+:root{
+    --black:#060606;
+    --black2:#101010;
+    --black3:#181818;
+    --gold:#D4AF37;
+    --gold-light:#F5DC78;
+    --white:#FFFFFF;
+    --gray:#A9A9A9;
+    --green:#43B86B;
+    --red:#A63D3D;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:var(--black);
+    color:var(--white);
+    min-height:100vh;
+}
+
+button,
+input{
+    font-family:inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+.hidden{
+    display:none !important;
+}
+
+/* =====================================
+   LOGIN
+===================================== */
+
+#loginPage{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:20px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #44350d 0%,
+            #171204 22%,
+            #060606 65%
+        );
+}
+
+.login-card{
+    width:100%;
+    max-width:440px;
+
+    background:rgba(15,15,15,.98);
+
+    border:1px solid rgba(212,175,55,.55);
+    border-radius:28px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    box-shadow:
+        0 0 50px rgba(212,175,55,.14);
+}
+
+.logo{
+    width:90px;
+    height:90px;
+
+    margin:0 auto 20px;
+
+    border:2px solid var(--gold);
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:var(--gold);
+    font-size:40px;
+}
+
+.login-card h1{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.login-card h2{
+    font-family:Georgia,serif;
+    font-weight:normal;
+    font-size:18px;
+    margin-bottom:12px;
+}
+
+.login-card p{
+    color:var(--gray);
+    line-height:1.5;
+    margin-bottom:25px;
+}
+
+.input{
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:12px;
+
+    border-radius:12px;
+    border:1px solid #333;
+
+    background:#090909;
+    color:white;
+
+    outline:none;
+}
+
+.input:focus{
+    border-color:var(--gold);
+}
+
+.gold-button{
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+    border-radius:12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--gold),
+            var(--gold-light)
+        );
+
+    color:#050505;
+
+    font-weight:bold;
+    font-size:15px;
+}
+
+.owner-link{
+    margin-top:18px;
+
+    background:none;
+    border:none;
+
+    color:var(--gold-light);
+
+    text-decoration:underline;
+}
+
+/* =====================================
+   HEADER
+===================================== */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:100;
+
+    background:rgba(6,6,6,.97);
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(212,175,55,.25);
+
+    padding:15px;
+}
+
+.header-inner{
+    max-width:1100px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.brand{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    font-size:21px;
+}
+
+.logout{
+    background:transparent;
+
+    color:var(--gold);
+
+    border:1px solid rgba(212,175,55,.55);
+
+    padding:9px 13px;
+
+    border-radius:9px;
+}
+
+/* =====================================
+   MAIN
+===================================== */
+
+main{
+    max-width:1100px;
+    margin:auto;
+
+    padding:25px 15px 80px;
+}
+
+.welcome{
+    margin-bottom:25px;
+}
+
+.welcome h2{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    margin-bottom:6px;
+}
+
+.welcome p{
+    color:var(--gray);
+}
+
+/* =====================================
+   TABS
+===================================== */
+
+.tabs{
+    display:flex;
