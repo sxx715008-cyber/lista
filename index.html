@@ -62,11 +62,13 @@ main{max-width:1100px;margin:auto;padding:25px 15px 80px;}
 .product:hover{border-color:var(--gold);transform:translateY(-2px);}
 .product-image{width:100%;height:195px;object-fit:cover;display:block;transition:transform .4s cubic-bezier(.2,.8,.2,1),filter .4s ease;}
 .product-image-link{display:block;overflow:hidden;}
+.product-image-link[href=""]{pointer-events:none;}
 .product:hover .product-image{transform:translateY(-10px) scale(1.06);filter:brightness(1.12) saturate(1.08);}
 .product-body{padding:15px;}
 .product-name{font-size:17px;font-weight:bold;margin-bottom:7px;}
 .product-description{color:#bcae9c;font-size:13px;line-height:1.4;margin-bottom:10px;}
 .product-link{display:block;color:var(--gold-light);text-decoration:none;font-size:13px;margin-bottom:14px;}
+.product-link[href=""]{display:none;}
 .product-actions{display:grid;gap:8px;}
 .buy-button{padding:12px;border:none;border-radius:9px;background:var(--gold);color:#1b1208;font-weight:bold;}
 .money-button{padding:12px;border-radius:9px;background:transparent;color:var(--gold-light);border:1px solid var(--gold);font-weight:bold;}
@@ -233,9 +235,10 @@ function carregarEstadoSalvo(){try{const salvo=JSON.parse(localStorage.getItem(S
 function salvarEstado(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify({produtos,visitas}));}catch(e){console.error("Erro ao salvar:",e);}}
 carregarEstadoSalvo();
 produtos=produtos.filter(p=>p.id===9||p.id===10);
+produtos.forEach(p=>{p.link="";});
 produtos.forEach(p=>{if(p.id===9){p.imagem="assets/img/kit-formas-pao.svg";}if(p.id===10){p.imagem="assets/img/kit-formas-bolo.svg";}});
-if(!produtos.some(p=>p.id===9)){produtos.splice(1,0,{id:9,categoria:"Cozinha",icone:"🍞",nome:"Kit de formas para pão e bolo",descricao:"Kit com formas de pão caseiro, assadeiras, forma para bolo inglês, kit cuca e forma de gelo em alumínio.",imagem:"assets/img/kit-formas-pao.svg",link:"https://s.shopee.com.br/8V8Yf0ZR1b?share_channel_code=1",recebido:false});}
-if(!produtos.some(p=>p.id===10)){produtos.splice(2,0,{id:10,categoria:"Cozinha",icone:"🍰",nome:"Kit 5 formas de bolo e pudim",descricao:"Kit com 5 formas redondas de alumínio com furo nos tamanhos N14, N16, N18, N20 e N22.",imagem:"assets/img/kit-formas-bolo.svg",link:"https://s.shopee.com.br/6AkdsmG1s6?share_channel_code=1",recebido:false});}
+if(!produtos.some(p=>p.id===9)){produtos.splice(1,0,{id:9,categoria:"Cozinha",icone:"🍞",nome:"Kit de formas para pão e bolo",descricao:"Kit com formas de pão caseiro, assadeiras, forma para bolo inglês, kit cuca e forma de gelo em alumínio.",imagem:"assets/img/kit-formas-pao.svg",link:"",recebido:false});}
+if(!produtos.some(p=>p.id===10)){produtos.splice(2,0,{id:10,categoria:"Cozinha",icone:"🍰",nome:"Kit 5 formas de bolo e pudim",descricao:"Kit com 5 formas redondas de alumínio com furo nos tamanhos N14, N16, N18, N20 e N22.",imagem:"assets/img/kit-formas-bolo.svg",link:"",recebido:false});}
 function loginConvidado(){const nome=document.getElementById("guestName").value.trim();const relacao=document.getElementById("guestRelation").value.trim();if(!nome||!relacao){alert("Preencha seu nome e diga o que você é da Dorikelly.");return;}usuarioAtual={nome,relacao,dona:false};abrirIntro();}
 function abrirLoginDona(){document.getElementById("ownerModal").classList.remove("hidden");}
 function fecharLoginDona(){document.getElementById("ownerModal").classList.add("hidden");}
