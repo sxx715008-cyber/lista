@@ -1,14 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55301f"/><stop offset="1" stop-color="#160f0c"/></linearGradient><linearGradient id="pan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3d39a"/><stop offset=".5" stop-color="#c17a43"/><stop offset="1" stop-color="#70402a"/></linearGradient></defs>
-<rect width="900" height="600" fill="url(#bg)"/>
-<circle cx="150" cy="110" r="150" fill="#d7b86d" opacity=".13"/><circle cx="780" cy="500" r="155" fill="#b8733d" opacity=".14"/>
-<path d="M115 455h670" stroke="#d7b86d" stroke-width="3" opacity=".5"/>
-<ellipse cx="450" cy="278" rx="235" ry="105" fill="url(#pan)" stroke="#f5e2bd" stroke-width="10"/>
-<ellipse cx="450" cy="278" rx="76" ry="31" fill="#3b2118" stroke="#f5e2bd" stroke-width="8"/>
-<path d="M220 275v92c0 76 460 76 460 0v-92" fill="#a96538" stroke="#f5e2bd" stroke-width="10"/>
-<path d="M260 370c115 48 265 48 380 0" fill="none" stroke="#6c3d27" stroke-width="17" stroke-linecap="round"/>
-<path d="M345 165c25-35 65-45 104-26M555 165c-25-35-65-45-104-26" fill="none" stroke="#f5e2bd" stroke-width="9" stroke-linecap="round"/>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55301f"/><stop offset="1" stop-color="#160d0a"/></linearGradient><linearGradient id="pan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8dca6"/><stop offset=".5" stop-color="#c17a43"/><stop offset="1" stop-color="#70402a"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="150" cy="105" r="150" fill="#d7b86d" opacity=".14"/><circle cx="780" cy="500" r="155" fill="#b8733d" opacity=".14"/>
+<path d="M110 455h680" stroke="#d7b86d" stroke-width="3" opacity=".55"/>
+<ellipse cx="450" cy="275" rx="235" ry="104" fill="url(#pan)" stroke="#f8e8c7" stroke-width="10"/><ellipse cx="450" cy="275" rx="76" ry="31" fill="#3b2118" stroke="#f8e8c7" stroke-width="8"/>
+<path d="M220 275v92c0 76 460 76 460 0v-92" fill="#a96538" stroke="#f8e8c7" stroke-width="10"/><path d="M260 370c115 48 265 48 380 0" fill="none" stroke="#6c3d27" stroke-width="17" stroke-linecap="round"/>
+<path d="M345 165c25-35 65-45 104-26M555 165c-25-35-65-45-104-26" fill="none" stroke="#f8e8c7" stroke-width="9" stroke-linecap="round"/>
 <circle cx="450" cy="125" r="25" fill="#d7b86d"/><path d="M450 107v36M432 125h36" stroke="#55301f" stroke-width="5"/>
-<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">KIT 5 FORMAS</text>
-<text x="450" y="535" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">BOLO E PUDIM</text>
+<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">KIT 5 FORMAS</text><text x="450" y="535" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">BOLO E PUDIM</text>
 </svg>
