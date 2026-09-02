@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#384044"/><stop offset="1" stop-color="#121719"/></linearGradient><linearGradient id="stone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9aa09d"/><stop offset=".5" stop-color="#555d5b"/><stop offset="1" stop-color="#262d2e"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="760" cy="100" r="175" fill="#d7b86d" opacity=".13"/><circle cx="125" cy="500" r="145" fill="#73807c" opacity=".18"/>
+<path d="M105 455h690" stroke="#d7b86d" stroke-width="3" opacity=".55"/>
+<ellipse cx="300" cy="315" rx="172" ry="82" fill="url(#stone)" stroke="#d8d3bd" stroke-width="9"/><path d="M130 312v72c0 90 340 90 340 0v-72" fill="#454d4d" stroke="#d8d3bd" stroke-width="9"/>
+<path d="M112 306c-75-25-92 30-50 53 24 13 47 3 69-16M463 306c75-25 92 30 50 53-24 13-47 3-69-16" fill="none" stroke="#242b2c" stroke-width="18" stroke-linecap="round"/>
+<ellipse cx="615" cy="250" rx="128" ry="62" fill="url(#stone)" stroke="#d8d3bd" stroke-width="9"/><path d="M487 250v58c0 67 256 67 256 0v-58" fill="#4b5352" stroke="#d8d3bd" stroke-width="9"/>
+<path d="M482 245c-54-19-68 23-37 40M748 245c54-19 68 23 37 40" fill="none" stroke="#242b2c" stroke-width="15" stroke-linecap="round"/>
+<path d="M235 270c35-20 95-20 130 0M570 220c28-15 62-15 90 0" fill="none" stroke="#c8c4b2" stroke-width="7" opacity=".7"/>
+<circle cx="450" cy="120" r="25" fill="#d7b86d"/><path d="M450 102v36M432 120h36" stroke="#384044" stroke-width="5"/>
+<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="40" font-weight="bold">PANELAS DE PEDRA</text>
+</svg>
