@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b4749"/><stop offset="1" stop-color="#121718"/></linearGradient><linearGradient id="sieve" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3d77f"/><stop offset="1" stop-color="#b77c36"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="760" cy="105" r="175" fill="#d7b86d" opacity=".14"/><circle cx="120" cy="505" r="145" fill="#e2aa54" opacity=".13"/><path d="M105 455h690" stroke="#d7b86d" stroke-width="3" opacity=".55"/>
+<path d="M170 205c0-38 44-62 108-62s108 24 108 62v82c0 100-216 100-216 0z" fill="url(#sieve)" stroke="#f8e7b3" stroke-width="9"/><ellipse cx="278" cy="205" rx="108" ry="45" fill="#f5d77d" stroke="#f8e7b3" stroke-width="9"/><path d="M225 195h106M215 218h126" stroke="#9a612e" stroke-width="7" stroke-linecap="round"/>
+<path d="M390 235c0-34 39-56 96-56s96 22 96 56v67c0 88-192 88-192 0z" fill="url(#sieve)" stroke="#f8e7b3" stroke-width="9"/><ellipse cx="486" cy="235" rx="96" ry="40" fill="#f5d77d" stroke="#f8e7b3" stroke-width="9"/><path d="M445 227h82M437 248h98" stroke="#9a612e" stroke-width="7" stroke-linecap="round"/>
+<path d="M585 265c0-29 33-47 82-47s82 18 82 47v56c0 75-164 75-164 0z" fill="url(#sieve)" stroke="#f8e7b3" stroke-width="9"/><ellipse cx="667" cy="265" rx="82" ry="34" fill="#f5d77d" stroke="#f8e7b3" stroke-width="9"/><path d="M632 258h70M625 276h84" stroke="#9a612e" stroke-width="7" stroke-linecap="round"/>
+<circle cx="450" cy="105" r="25" fill="#d7b86d"/><path d="M450 87v36M432 105h36" stroke="#3b4749" stroke-width="5"/>
+<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">KIT 3 PENEIRAS</text><text x="450" y="535" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">TAMANHOS DIFERENTES • COZINHA</text>
+</svg>
