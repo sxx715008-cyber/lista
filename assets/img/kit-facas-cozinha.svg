@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d3431"/><stop offset="1" stop-color="#120f0e"/></linearGradient><linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8dd"/><stop offset=".45" stop-color="#aeb8b6"/><stop offset="1" stop-color="#56605f"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="760" cy="100" r="175" fill="#d7b86d" opacity=".14"/><circle cx="120" cy="505" r="145" fill="#7d5b42" opacity=".18"/><path d="M105 455h690" stroke="#d7b86d" stroke-width="3" opacity=".55"/>
+<path d="M190 390l220-230 32 30-188 250z" fill="url(#steel)" stroke="#eee7d1" stroke-width="7"/><path d="M170 410l28-24 75 70-29 28z" fill="#6e3925" stroke="#d7b86d" stroke-width="6"/>
+<path d="M310 390l185-245 32 29-153 263z" fill="url(#steel)" stroke="#eee7d1" stroke-width="7"/><path d="M295 409l27-25 72 67-28 28z" fill="#7d4028" stroke="#d7b86d" stroke-width="6"/>
+<path d="M430 400l150-230 31 27-112 245z" fill="url(#steel)" stroke="#eee7d1" stroke-width="7"/><path d="M418 420l26-24 65 60-28 27z" fill="#6e3925" stroke="#d7b86d" stroke-width="6"/>
+<path d="M555 405l105-190 29 24-70 205z" fill="url(#steel)" stroke="#eee7d1" stroke-width="7"/><path d="M545 423l25-22 56 51-27 25z" fill="#7d4028" stroke="#d7b86d" stroke-width="6"/>
+<path d="M650 410l65-125 27 22-38 138z" fill="url(#steel)" stroke="#eee7d1" stroke-width="7"/><path d="M642 427l23-20 46 42-25 23z" fill="#6e3925" stroke="#d7b86d" stroke-width="6"/>
+<circle cx="450" cy="105" r="25" fill="#d7b86d"/><path d="M450 87v36M432 105h36" stroke="#3d3431" stroke-width="5"/>
+<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">KIT 5 FACAS</text><text x="450" y="535" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">ACO INOX • COZINHA PROFISSIONAL</text>
+</svg>
