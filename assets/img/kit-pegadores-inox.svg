@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#384247"/><stop offset="1" stop-color="#111617"/></linearGradient><linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff9e5"/><stop offset=".5" stop-color="#aeb9b8"/><stop offset="1" stop-color="#596362"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="760" cy="105" r="175" fill="#d7b86d" opacity=".14"/><circle cx="125" cy="505" r="145" fill="#b8733d" opacity=".14"/><path d="M105 455h690" stroke="#d7b86d" stroke-width="3" opacity=".55"/>
+<path d="M245 390V190" stroke="url(#steel)" stroke-width="24" stroke-linecap="round"/><path d="M205 190c-15-70 92-70 77 0M205 190l-38 35M282 190l38 35" fill="none" stroke="#f0ead5" stroke-width="10" stroke-linecap="round"/>
+<path d="M450 390V190" stroke="url(#steel)" stroke-width="24" stroke-linecap="round"/><path d="M410 190c-22-60 102-60 80 0M410 190l-30 30M490 190l30 30" fill="none" stroke="#f0ead5" stroke-width="10" stroke-linecap="round"/><path d="M410 225c25 18 55 18 80 0" fill="none" stroke="#596362" stroke-width="9"/>
+<path d="M655 390V190" stroke="url(#steel)" stroke-width="24" stroke-linecap="round"/><path d="M615 190c-18-65 98-65 80 0M615 190l-34 31M695 190l34 31" fill="none" stroke="#f0ead5" stroke-width="10" stroke-linecap="round"/><circle cx="655" cy="235" r="28" fill="none" stroke="#596362" stroke-width="8"/><circle cx="655" cy="235" r="9" fill="#596362"/>
+<circle cx="450" cy="105" r="25" fill="#d7b86d"/><path d="M450 87v36M432 105h36" stroke="#384247" stroke-width="5"/>
+<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">3 PEGADORES</text><text x="450" y="535" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">ACO INOX • UNIVERSAL • MASSA • GELO</text>
+</svg>
