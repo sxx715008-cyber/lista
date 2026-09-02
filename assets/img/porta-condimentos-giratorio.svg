@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#51402a"/><stop offset="1" stop-color="#17130d"/></linearGradient><linearGradient id="rack" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e1c175"/><stop offset="1" stop-color="#92703a"/></linearGradient><linearGradient id="jar" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3c5"/><stop offset="1" stop-color="#d0a447"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="760" cy="105" r="175" fill="#d7b86d" opacity=".14"/><circle cx="120" cy="505" r="145" fill="#d7b86d" opacity=".12"/><path d="M105 455h690" stroke="#f0ddb4" stroke-width="3" opacity=".55"/>
+<ellipse cx="450" cy="420" rx="220" ry="35" fill="#221b12" stroke="#d7b86d" stroke-width="8"/><path d="M450 420V170" stroke="#d7b86d" stroke-width="18"/><ellipse cx="450" cy="160" rx="120" ry="30" fill="url(#rack)" stroke="#f4dfaa" stroke-width="8"/>
+<g fill="url(#jar)" stroke="#fff1bd" stroke-width="6"><rect x="285" y="245" width="80" height="120" rx="15"/><rect x="410" y="245" width="80" height="120" rx="15"/><rect x="535" y="245" width="80" height="120" rx="15"/></g>
+<g fill="#705020" stroke="#f4dfaa" stroke-width="5"><rect x="280" y="222" width="90" height="28" rx="9"/><rect x="405" y="222" width="90" height="28" rx="9"/><rect x="530" y="222" width="90" height="28" rx="9"/></g>
+<g fill="#815d2c"><circle cx="325" cy="300" r="12"/><circle cx="450" cy="300" r="12"/><circle cx="575" cy="300" r="12"/></g>
+<path d="M310 395c-95-50-125-110-90-165M590 395c95-50 125-110 90-165" fill="none" stroke="#d7b86d" stroke-width="16" stroke-linecap="round"/>
+<circle cx="450" cy="105" r="25" fill="#d7b86d"/><path d="M450 87v36M432 105h36" stroke="#51402a" stroke-width="5"/>
+<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">PORTA-CONDIMENTOS</text><text x="450" y="535" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">GIRATORIO • 18 POTES • 85 ML</text>
+</svg>
