@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#394348"/><stop offset="1" stop-color="#111617"/></linearGradient><linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f0dc"/><stop offset=".48" stop-color="#9ea9a9"/><stop offset="1" stop-color="#495253"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="760" cy="105" r="175" fill="#d7b86d" opacity=".14"/><circle cx="120" cy="505" r="145" fill="#9da8a7" opacity=".13"/><path d="M105 455h690" stroke="#d7b86d" stroke-width="3" opacity=".55"/>
+<ellipse cx="450" cy="340" rx="245" ry="65" fill="#505b5c" stroke="#eee9d6" stroke-width="9"/><path d="M205 340v48c0 112 490 112 490 0v-48" fill="url(#steel)" stroke="#eee9d6" stroke-width="9"/>
+<ellipse cx="450" cy="285" rx="205" ry="56" fill="#b7c0bd" stroke="#eee9d6" stroke-width="9"/><path d="M245 285v42c0 94 410 94 410 0v-42" fill="url(#steel)" stroke="#eee9d6" stroke-width="9"/>
+<ellipse cx="450" cy="235" rx="165" ry="47" fill="#dce0d5" stroke="#eee9d6" stroke-width="9"/><path d="M285 235v36c0 76 330 76 330 0v-36" fill="url(#steel)" stroke="#eee9d6" stroke-width="9"/>
+<path d="M400 170h100M420 145h60" stroke="#f3ddb0" stroke-width="9" stroke-linecap="round"/><path d="M500 185c28 34 44 65 8 105" fill="none" stroke="#d7b86d" stroke-width="8" stroke-linecap="round"/>
+<circle cx="450" cy="105" r="25" fill="#d7b86d"/><path d="M450 87v36M432 105h36" stroke="#394348" stroke-width="5"/>
+<text x="450" y="505" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">BOWLS DE INOX</text><text x="450" y="535" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">TAMPAS HERMETICAS • EMPILHAVEIS • FUE</text>
+</svg>
