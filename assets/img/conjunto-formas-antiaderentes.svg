@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4f3023"/><stop offset="1" stop-color="#160e0b"/></linearGradient><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9d5c7"/><stop offset=".5" stop-color="#777875"/><stop offset="1" stop-color="#303536"/></linearGradient></defs>
+<rect width="900" height="600" fill="url(#bg)"/><circle cx="760" cy="105" r="170" fill="#d7b86d" opacity=".14"/><circle cx="120" cy="505" r="145" fill="#b8733d" opacity=".13"/><path d="M105 455h690" stroke="#d7b86d" stroke-width="3" opacity=".55"/>
+<rect x="150" y="215" width="225" height="155" rx="30" fill="url(#metal)" stroke="#eee7d1" stroke-width="9"/><path d="M178 300h168" stroke="#343a3b" stroke-width="15" stroke-linecap="round"/>
+<circle cx="530" cy="292" r="96" fill="url(#metal)" stroke="#eee7d1" stroke-width="9"/><circle cx="530" cy="292" r="34" fill="#3d4545" stroke="#eee7d1" stroke-width="7"/>
+<rect x="650" y="185" width="115" height="115" rx="24" fill="url(#metal)" stroke="#eee7d1" stroke-width="9"/><path d="M685 238h45" stroke="#343a3b" stroke-width="13" stroke-linecap="round"/>
+<path d="M350 175c25-32 62-32 90 0M475 175c28-32 65-32 94 0" fill="none" stroke="#eee7d1" stroke-width="9" stroke-linecap="round"/>
+<path d="M225 175l-18-31M275 165l-2-37M325 175l18-31" stroke="#d7b86d" stroke-width="8" stroke-linecap="round"/>
+<circle cx="450" cy="105" r="25" fill="#d7b86d"/><path d="M450 87v36M432 105h36" stroke="#4f3023" stroke-width="5"/>
+<text x="450" y="485" text-anchor="middle" fill="#f0ddb4" font-family="Georgia,serif" font-size="38" font-weight="bold">CONJUNTO 8 FORMAS</text><text x="450" y="520" text-anchor="middle" fill="#d7b86d" font-family="Arial,sans-serif" font-size="22">PAO • BOLO • PIZZA • CUPCAKE • TORTA</text>
+</svg>
