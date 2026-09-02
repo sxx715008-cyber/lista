@@ -19,6 +19,6 @@ http://localhost:8000/
 ## Estrutura
 
 - `index.html` - página principal
-- `assets/css/style.css` - estilos do projeto
-- `assets/js/app.js` - lógica da aplicação
-- `lista.html` - compatibilidade/arquivo legado
+- `assets/css/` - estilos do projeto
+- `assets/js/` - lógica da aplicação
+- `assets/img/` - imagens da página

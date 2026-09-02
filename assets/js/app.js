@@ -136,7 +136,7 @@ function loginConvidado() {
         dona:false
     };
 
-    abrirApp();
+    abrirIntro();
 }
 
 function abrirLoginDona() {
@@ -159,26 +159,39 @@ function loginDona() {
         };
 
         fecharLoginDona();
-        abrirApp();
+        abrirIntro();
         document.getElementById("adminTab").classList.remove("hidden");
     } else {
         alert("Nome completo ou senha incorretos.");
     }
 }
 
-function abrirApp() {
+function abrirIntro() {
     document.getElementById("loginPage").classList.add("hidden");
+    document.getElementById("introPage").classList.remove("hidden");
+    document.getElementById("app").classList.add("hidden");
+}
+
+function irParaLista() {
+    document.getElementById("introPage").classList.add("hidden");
     document.getElementById("app").classList.remove("hidden");
-    document.getElementById("welcome").innerText = "Olá, " + usuarioAtual.nome + "!";
+    document.getElementById("welcome").innerText = "Lista da Casa Nova";
+
+    const mensagem = document.querySelector("#app .welcome p");
+    if (mensagem) {
+        mensagem.innerHTML = "Estamos começando uma nova fase juntos e preparando com muito carinho o nosso cantinho. 🏡💍<br><br>Criamos essa lista para compartilhar um pouquinho dos sonhos e das coisas que queremos para o nosso novo lar. Se quiser fazer parte desse momento, escolha algo da nossa lista ou contribua da forma que preferir.<br><br>Ter você fazendo parte desse novo começo já significa muito para nós! 💛";
+    }
 
     renderizarProdutos();
     renderizarJaTenho();
     renderizarAdmin();
+    registrarVisita();
 }
 
 function logout() {
     usuarioAtual = null;
     document.getElementById("app").classList.add("hidden");
+    document.getElementById("introPage").classList.add("hidden");
     document.getElementById("loginPage").classList.remove("hidden");
     document.getElementById("adminTab").classList.add("hidden");
 }
