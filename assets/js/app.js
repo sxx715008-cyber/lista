@@ -167,15 +167,18 @@ function loginDona() {
 }
 
 function abrirIntro() {
+    const nome = usuarioAtual && usuarioAtual.nome ? usuarioAtual.nome.split(/\s+/)[0] : "Amigo";
+    document.getElementById("introTitle").innerText = "Olá, " + nome + "!";
     document.getElementById("loginPage").classList.add("hidden");
     document.getElementById("introPage").classList.remove("hidden");
     document.getElementById("app").classList.add("hidden");
 }
 
 function irParaLista() {
+    const nome = usuarioAtual && usuarioAtual.nome ? usuarioAtual.nome.split(/\s+/)[0] : "Amigo";
     document.getElementById("introPage").classList.add("hidden");
     document.getElementById("app").classList.remove("hidden");
-    document.getElementById("welcome").innerText = "Lista da Casa Nova";
+    document.getElementById("welcome").innerText = "Olá, " + nome + "!";
 
     const mensagem = document.querySelector("#app .welcome p");
     if (mensagem) {
